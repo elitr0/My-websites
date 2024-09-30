@@ -1,0 +1,195 @@
+/*-----------------------------REFERENCES-----------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Open+Sans&display=swap');
+
+/*-----------------------------REFERENCES-----------------------------*/
+
+
+
+/*-----------------------------NAV PROPERTIES-----------------------------*/
+
+.divbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #6392b8;
+  color: #ffffff;
+  padding: 15px;
+  position: sticky;
+  top:0;
+}
+
+.logo {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  font-size: 35px;
+}
+
+.buttonnav {
+  text-decoration: none;
+  background-color: #5581A5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 100px;
+  border: 1.5px solid #426C8E;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-left: 25px;
+  color: #ffffff;
+  transition: background-color 0.5s, border-color 0.5s, color 0.5s, padding-left 0.5s, padding-right 0.5s;
+}
+
+.buttonnav:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+  padding-left: 35px;
+  padding-right: 35px;
+  transition: background-color 0.5s, border-color 0.5s, color 0.5s, padding-left 0.5s, padding-right 0.5s;
+}
+
+/*-----------------------------NAV PROPERTIES-----------------------------*/
+
+
+
+/*-----------------------------PARAGRAPH PROPERTIES-----------------------------*/
+
+code {
+  font-size: 110%;
+  color: #385770;
+  background-color: #dbdbdb;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 4px;
+  border: 1.2px solid #a4a4a4;
+  font: monospace;
+  }
+
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 30px;
+}
+
+body {
+  background-color: #1b2a36;
+  background-image: url(plus.svg);
+  background-size: 4%;
+  margin: 0;
+  color: #ffffff;
+}
+
+p, td {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #5581A5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 100px;
+  border: 4px solid #426C8E;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 28px;
+  color: #ffffff;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+/*-----------------------------PARAGRAPH PROPERTIES-----------------------------*/
+
+
+
+/*-----------------------------IMAGE AND DIV PROPERTIES-----------------------------*/
+
+.boxes {
+  background-color: #ffffff;
+  color: #385770;
+  margin: auto;
+  margin-top: 35px;
+  width: 70%;
+  border: 5px solid #6392b8;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+img {
+  float: left;
+  height: 130px;
+  object-fit: cover;
+}
+
+/*-----------------------------IMAGE AND DIV PROPERTIES-----------------------------*/
+
+
+
+/*-----------------------------TABLE PROPERTIES-----------------------------*/
+
+table{
+  width: 80%;
+}
+
+table {
+  margin: auto;
+}
+
+table, td, th {
+  color: #ffffff;
+  border-collapse: collapse;
+  border: 2.5px solid #ffffff;
+  background-color: #385770;
+}
+
+th {
+  font-size: 150%;
+  padding: 6px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+/*-----------------------------TABLE PROPERTIES-----------------------------*/
+
+
+
+/*-----------------------------SCROLLBAR PROPERTIES-----------------------------*/
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #385770; 
+    border-radius: 100px;
+}
+
+/*-----------------------------SCROLLBAR PROPERTIES-----------------------------*/
